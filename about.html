@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="btsp.css">
+    <link rel="stylesheet" href="home.css">
+    <style>
+      .hero {
+        background-image: url('images/tokyo.jpg');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-align: center;
+        padding: 100px 0;
+        max-width: 90%; /* Adjust the width */
+      margin: 0 auto; /* Center it horizontally */
+      border-radius: 8px; /* Optional: Rounded corners */
+      }
+      .section {
+        padding: 40px 20px;
+      }
+      .section h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+      }
+      .team-card img {
+        border-radius: 50%;
+      }
+      .contact-section {
+        background-color: #307e41;
+        color: white;
+        padding: 40px 20px;
+        border-radius: 8px;
+      }
+      .contact-section h2 {
+        margin-bottom: 20px;
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg nav-class">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img class="logo-set p-1" src="logo.png" alt="">VISIT TOKYO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="spots.html">Tourist Spots</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="history.html">History</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html">About Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <a class="icons" href="#"><img class="twi-set pe-2" src="twi.png" alt=""></a>
+              <a class="icons" href="#"><img class="em-set pe-2" src="em.png" alt=""></a>
+              <a class="icons" href="#"><img class="fb-set pe-1" src="fb.png" alt=""></a>
+              <a class="icons" href="#"><img class="ig-set pe-2" src="ig.png" alt=""></a>
+              <input class="form-control me-2" type="search" placeholder="Visit Tokyo" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav> 
+
+      <hr>
+      
+   <!-- Hero Section -->
+<div class="hero">
+  <h1>About Travel Tokyo Travels</h1>
+  <p class="lead">Your Gateway to Exploring the Wonders of Tokyo</p>
+</div>
+
+<!-- Mission and Vision Section -->
+<div class="container section">
+  <div class="row">
+    <div class="col-md-6">
+      <center><h2 class="fw-bold">Our Mission</h2></center>
+      <p>To provide unforgettable travel experiences in Tokyo through exceptional service, immersive tours, and a deep understanding of local culture.</p>
+    </div>
+    <div class="col-md-6">
+      <center><h2 class="fw-bold">Our Vision</h2></center>
+      <p>To become the leading travel agency for exploring Tokyo, connecting travelers with the heart of Japan’s capital city.</p>
+    </div>
+  </div>
+</div>
+
+<!-- History Section -->
+<div class="container section">
+  <h2 class="text-center fw-bold">Our Story</h2>
+  <p class="text-center">Founded in 2010, Travel Tokyo Travels started with a vision to share the beauty and culture of Tokyo with the world. Over the years, we’ve grown to offer personalized tours, luxury travel packages, and cultural experiences that captivate travelers from every corner of the globe.</p>
+</div>
+
+<!-- Team Section -->
+<div class="container section">
+  <h2 class="text-center mb-4">Meet the Team</h2>
+  <div class="row justify-content-center">
+    <div class="col-md-3 text-center team-card">
+      <img src="janart.jpg" alt="Team Member 2" class="img-fluid mb-3">
+      <h5>Jan Art Rey Aquidado</h5>
+      <p>Head of Operations <br> (Tourists Spots Page)</p>
+    </div>
+    <div class="col-md-3 text-center team-card">
+      <img src="richen.jpg" alt="Team Member 1" class="img-fluid mb-3">
+      <h5>Richen Molina</h5>
+      <p>Founder & CEO <br> (Home and Services Page)</p>
+    </div>
+    <div class="col-md-3 text-center team-card me-5">
+      <img src="nicca.jpg" alt="Team Member 3" class="img-fluid mb-3">
+      <h5>Nicca Gumial</h5>
+      <p>Tour Manager (Tourists Spots Page)</p> 
+    </div> 
+    <div class="col-md-3 text-center team-card">
+      <img src="rodelyn.jpg" alt="Team Member 3" class="img-fluid mb-3">
+      <h5>Rodelyn Losañes</h5>
+      <p>Staff (History Page)</p>
+    </div>
+    <div class="col-md-3 text-center team-card">
+      <img src="heartlie.jpg" alt="Team Member 3" class="img-fluid mb-3">
+      <h5>Heartlie Cerbas</h5>
+      <p>Staff (About Us Page)</p>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="container contact-section text-center">
+  <h2>Contact Us</h2>
+  <p>Have questions? We’d love to hear from you!</p>
+  <p>Email: info@traveltokyo.com | Phone: +81-3-1234-5678</p>
+  <button class="btn btn-light btn-lg">Get in Touch</button>
+</div>
+
+    <hr>
+    
+    <script src="btsp.js"></script>
+</body>
+</html>

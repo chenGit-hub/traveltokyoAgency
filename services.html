@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="btsp.css">
+    <link rel="stylesheet" href="home.css">
+    <style>
+      .hero {
+        background-image: url('tokyo.jpg');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-align: center;
+        padding: 100px 0;
+        max-width: 90%; /* Adjust the width */
+      margin: 0 auto; /* Center it horizontally */
+      border-radius: 8px; /* Optional: Rounded corners */
+      }
+      .form-section {
+        background-color: white;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg nav-class">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img class="logo-set p-1" src="logo.png" alt="">VISIT TOKYO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="spots.html">Tourist Spots</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="history.html">History</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html">About Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <a class="icons" href="#"><img class="twi-set pe-2" src="twi.png" alt=""></a>
+              <a class="icons" href="#"><img class="em-set pe-2" src="em.png" alt=""></a>
+              <a class="icons" href="#"><img class="fb-set pe-1" src="fb.png" alt=""></a>
+              <a class="icons" href="#"><img class="ig-set pe-2" src="ig.png" alt=""></a>
+              <input class="form-control me-2" type="search" placeholder="Visit Tokyo" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav> 
+
+      <hr>
+      
+    <div class="container">
+        <!-- <div class="col-10">
+            <span class="change-font">VISIT TOKYO</span><span>a Travel Agency on the go!</span>
+        </div> -->
+        <div class="col-2">
+
+        </div>
+    </div>
+
+    <div class="hero">
+      <h1>VISIT TOKYO Travel Booking</h1>
+      <p class="lead">Plan your next adventure with ease.</p>
+    </div>
+    
+    <div class="container mt-4">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="form-section">
+            <h2 class="text-center mb-4">Book Your Travel</h2>
+            <form>
+              <div class="mb-3">
+                <label for="destination" class="form-label">Destination</label>
+                <select id="destination" class="form-select" required>
+                  <option value="" selected disabled>Select a destination</option>
+                  <option value="tokyo">Tokyo</option>
+                </select>
+              </div>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="startDate" class="form-label">Start Date</label>
+                  <input type="date" id="startDate" class="form-control" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="endDate" class="form-label">End Date</label>
+                  <input type="date" id="endDate" class="form-control" required>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="travelers" class="form-label">Number of Travelers</label>
+                <input type="number" id="travelers" class="form-control" min="1" placeholder="Enter number of travelers" required>
+              </div>
+              <div class="mb-3">
+                <label for="contact" class="form-label">Contact Information</label>
+                <input type="email" id="contact" class="form-control" placeholder="Enter your email address" required>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-success">Book Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container mt-5">
+      <h2 class="text-center mb-4">Popular Activities at Tokyo</h2>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="sumo.jpg" class="card-img-top" alt="Destination 1">
+            <div class="card-body text-center">
+              <h5 class="card-title">Sumo Show Experience</h5>
+              <p class="card-text">Learn the rules of sumo and how to practice it, watch demonstrations, and then have a go at wrestling yourself in Asakusa, Tokyo. Enjoy Chanko-nabe (chicken hot pot) prepared by former sumo wrestlers.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="fuji.jpg" class="card-img-top" alt="Destination 2">
+            <div class="card-body text-center">
+              <h5 class="card-title">Mt. Fuji Day Travel</h5>
+              <p class="card-text">Embark on a day trip from Tokyo to Mount Fuji, Lake Kawaguchi, or Hakone. Visit the Chureito Pagoda, stroll through Oishi Park, and opt to visit the Hakone Ropeway and cruise Lake Ashi.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="kart.jpg" class="card-img-top" alt="Destination 3">
+            <div class="card-body text-center">
+              <h5 class="card-title">Street Kart Experience</h5>
+              <p class="card-text">Tour Tokyo in the most eccentric way possible, driving a custom go-kart on the public roads. Enjoy 1 hour of driving, costumes, infinite smiles, and waves - you will never forget Shibuya Tokyo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="team.jpg" class="card-img-top" alt="Destination 4">
+            <div class="card-body text-center">
+              <h5 class="card-title">teamLab Planets Tokyo</h5>
+              <p class="card-text">Explore the immersive exhibits within teamLab Planets TOKYO, a must-see attraction on any visit to Tokyo. Discover digital art installations made of lights, sounds, and different materials to delight all five senses.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    
+    <script src="btsp.js"></script>
+</body>
+</html>

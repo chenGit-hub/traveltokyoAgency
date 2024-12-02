@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="btsp.css">
+    <link rel="stylesheet" href="home.css">
+    <style>
+      /* Optional: Customize the carousel's style */
+      .carousel-item img {
+        height: 250px;
+        object-fit: cover;
+      }
+      .image-caption {
+      font-size: 14px;
+      color: #555;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg nav-class">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img class="logo-set p-1" src="logo.png" alt="">VISIT TOKYO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="spots.html">Tourist Spots</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="history.html">History</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html">About Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <a class="icons" href="#"><img class="twi-set pe-2" src="twi.png" alt=""></a>
+              <a class="icons" href="#"><img class="em-set pe-2" src="em.png" alt=""></a>
+              <a class="icons" href="#"><img class="fb-set pe-1" src="fb.png" alt=""></a>
+              <a class="icons" href="#"><img class="ig-set pe-2" src="ig.png" alt=""></a>
+              <input class="form-control me-2" type="search" placeholder="Visit Tokyo" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav> 
+
+      <hr>
+      
+    <div class="container">
+        <div class="col-10">
+          <span class="change-font">VISIT TOKYO</span><span class="m-3">You can <span class="fw-bold">Browse</span> for places you may want to include on your <span class="fw-bold">ITINERARY</span>!</span>
+        </div>
+        <div class="col-2">
+
+        </div>
+    </div>
+
+    <div class="container mt-5">
+      <h2 class="text-center mb-4">Top Sights in Tokyo!</h2>
+      <div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+    
+        <!-- Carousel Items -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="tower.jpg" class="d-block w-100" alt="Image 1">
+                <h5 class="mt-2">Tokyo Tower</h5>
+                <p class="image-caption">Standing 333 meters high in central Tokyo, Tokyo Tower (東京タワー) is the world's tallest, self-supported steel tower and 3 meters taller than its model, the Eiffel Tower. A symbol of Japan's post-war rebirth as a major economic power, Tokyo Tower was the country's tallest structure from its completion in 1958 until 2012 when it was surpassed by the Tokyo Skytree. In addition to being a popular tourist spot, Tokyo Tower serves as a broadcast antenna. Source: japan-guide.com</p>
+              </div>
+              <div class="col-md-4">
+                <img src="imperial.jpg" class="d-block w-100" alt="Image 2">
+                <h5 class="mt-2">Tokyo Imperial Palace</h5>
+                <p class="image-caption">he chief attraction of Tokyo's Marunouchi district is the Imperial Palace (Kōkyo) with its beautiful 17th-century parks surrounded by walls and moats. Still in use by the Imperial family, the Imperial Palace stands on the site where, in 1457, the Feudal Lord Ota Dokan built the first fortress, the focal point from which the city of Tokyo (or Edo, as it was then) gradually spread. Source: planetware.com</p>
+              </div>
+              <div class="col-md-4">
+                <img src="shibuya.jpg" class="d-block w-100" alt="Image 3">
+                <h5 class="mt-2">Shibuya Crossing</h5>
+                <p class="image-caption">The sprawling scramble intersection just outside Shibuya Station is an embodiment of Tokyo itself: action in all directions. Three huge television screens mounted on the buildings facing the intersection flash all day, while the rest of the area is covered with lights, advertisements, and more lights. Source: en.japantravel.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="ginza.jpg" class="d-block w-100" alt="Image 1">
+                <h5 class="mt-2">Street Scene in Ginza District</h5>
+                <p class="image-caption">Ginza is Tokyo's busiest shopping area and it's as iconic as Times Square in New York, and much older. It has in fact been the commercial center of the country for centuries and is where five ancient roads connecting Japan's major cities all met. Lined by exclusive shops and imposing palatial stores, the Ginza district is also fun to simply wander around or. Better still, sit in one of its many tea and coffee shops or restaurants while watching the world rush past. Source: planetware.com</p>
+              </div>
+              <div class="col-md-4">
+                <img src="garden.jpg" class="d-block w-100" alt="Image 2">
+                <h5 class="mt-2">Shinjuku Gyoen National Garden</h5>
+                <p class="image-caption">The garden is considered one of the best because it fuses together three types of traditional garden: French Formal, English Landscape, and Japanese traditional. It also happens to be one of the best spots in Tokyo to view the cherry blossoms, as the garden has roughly 1,500 cherry trees. You'll also find Himalayan cedars, cypresses, and tulip trees. The garden is very popular in the autumn, when the leaves start to change to crimson and gold. Source: planetware.com</p>
+              </div>
+              <div class="col-md-4">
+                <img src="zoo.jpg" class="d-block w-100" alt="Image 3">
+                <h5 class="mt-2">Ueno Park and Ueno Zoo</h5>
+                <p class="image-caption">A paradise-like oasis of green in the heart of busy Tokyo, Ueno Park (Ueno Kōen) is the city's largest green space and one of its most popular tourist attractions. In addition to its lovely grounds, the park also boasts numerous temples and museums to explore. Source: planetware.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="museum.jpg" class="d-block w-100" alt="Image 1">
+                <h5 class="mt-2">Tokyo National Museum</h5>
+                <p class="image-caption">Noteworthy are its large collections of historical Japanese clothing and Asian ceramics and pottery. Important artwork includes Japanese paintings from the 7th to the 14th centuries, and another must-see is the museum's exquisite collections of Japanese and Chinese masterpieces of lacquer work of various centuries, including examples of lacquer-carving, gold lacquer, and lacquer with mother of pearl. There are also many fine examples of calligraphy. Source: planetware.com</p>
+              </div>
+              <div class="col-md-4">
+                <img src="art.jpg" class="d-block w-100" alt="Image 2">
+                <h5 class="mt-2">The National Art Center</h5>
+                <p class="image-caption">Another of Tokyo's world-class museums, the excellent National Art Center (Kokuritsu Shin-Bijutsukan) is housed in a remarkable curved glass building in the city's Roppongi district. This superb facility only opened in 2007 and has since earned a well-deserved reputation for its fine permanent collection of more than 600 paintings, most from the 20th century. These include many important pieces of modern art and regular visiting exhibitions. Source: planetware.com</p>
+              </div>
+              <div class="col-md-4">
+                <img src="kabuki.jpg" class="d-block w-100" alt="Image 3">
+                <h5 class="mt-2">The Kabuki-za Theatre, Ginza</h5>
+                <p class="image-caption">The drama and comedy are relatively easy to follow thanks to rich visuals and theatricality. The theater's interior, usually full to capacity with some 2,000 guests, is always intimate and seems more akin to an enormous family get-together than a stage show due to the fact that spectators bring their own food or purchase treats from the various restaurants spread around the auditorium (go for one of the tasty bento box meals). Source: planetware.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <hr>
+    
+    <script src="btsp.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+</body>
+</html>

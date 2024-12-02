@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="btsp.css">
+    <link rel="stylesheet" href="home.css">
+    <style>
+      .hero {
+        background-image: url('images/tokyo.jpg');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-align: center;
+        padding: 100px 0;
+        max-width: 90%; /* Adjust the width */
+      margin: 0 auto; /* Center it horizontally */
+      border-radius: 8px; /* Optional: Rounded corners */
+      }
+      .timeline {
+        position: relative;
+        padding: 20px 0;
+      }
+      .timeline::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        width: 4px;
+        background: #dee2e6;
+        margin-left: -2px;
+      }
+      .timeline-item {
+        position: relative;
+        margin-bottom: 30px;
+      }
+      .timeline-item .timeline-icon {
+        position: absolute;
+        left: 50%;
+        width: 20px;
+        height: 20px;
+        background: #007bff;
+        border-radius: 50%;
+        margin-left: -10px;
+      }
+      .timeline-item .timeline-content {
+        position: relative;
+        width: 45%;
+        padding: 15px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .timeline-item.left .timeline-content {
+        left: 0;
+      }
+      .timeline-item.right .timeline-content {
+        right: 0;
+      }
+      .facts-section {
+        background-color: white;
+        padding: 40px 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg nav-class">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img class="logo-set p-1" src="logo.png" alt="">VISIT TOKYO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="spots.html">Tourist Spots</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="history.html">History</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html">About Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <a class="icons" href="#"><img class="twi-set pe-2" src="twi.png" alt=""></a>
+              <a class="icons" href="#"><img class="em-set pe-2" src="em.png" alt=""></a>
+              <a class="icons" href="#"><img class="fb-set pe-1" src="fb.png" alt=""></a>
+              <a class="icons" href="#"><img class="ig-set pe-2" src="ig.png" alt=""></a>
+              <input class="form-control me-2" type="search" placeholder="Visit Tokyo" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav> 
+
+      <hr>
+      
+      <div class="hero">
+        <h1>History of Tokyo</h1>
+        <p class="lead">Discover the rich history of Japan's vibrant capital.</p>
+      </div>
+      
+      <!-- Timeline Section -->
+      <div class="container mt-5">
+        <h2 class="text-center mb-4">Timeline of Tokyo's History</h2>
+        <div class="timeline">
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item left">
+            <div class="timeline-icon"></div>
+            <div class="timeline-content">
+              <h4>1603: Edo Period</h4>
+              <p>Tokyo, then known as Edo, became the seat of the Tokugawa shogunate, marking the start of its historical prominence.</p>
+            </div>
+          </div>
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item right">
+            <div class="timeline-icon"></div>
+            <div class="timeline-content">
+              <h4>1868: Renamed Tokyo</h4>
+              <p>Following the Meiji Restoration, Edo was renamed Tokyo, meaning "Eastern Capital."</p>
+            </div>
+          </div>
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item left">
+            <div class="timeline-icon"></div>
+            <div class="timeline-content">
+              <h4>1923: Great Kanto Earthquake</h4>
+              <p>A devastating earthquake destroyed much of the city but led to a modern rebuilding effort.</p>
+            </div>
+          </div>
+          <!-- Timeline Item 4 -->
+          <div class="timeline-item right">
+            <div class="timeline-icon"></div>
+            <div class="timeline-content">
+              <h4>1945: WWII Aftermath</h4>
+              <p>Tokyo was heavily bombed during World War II, but its post-war reconstruction transformed it into a global metropolis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Interesting Facts Section -->
+      <div class="container mt-5">
+        <h2 class="text-center mb-4">Interesting Facts About Tokyo</h2>
+        <div class="facts-section">
+          <ul>
+            <li>Tokyo is home to over 14 million people in the city proper and 37 million in the metropolitan area.</li>
+            <li>It hosted the Olympics twice: in 1964 and 2021.</li>
+            <li>The city features more Michelin-starred restaurants than any other city in the world.</li>
+            <li>Tokyo was originally a small fishing village named Edo.</li>
+          </ul>
+        </div>
+      </div>
+
+    <hr>
+    
+    <script src="btsp.js"></script>
+</body>
+</html>

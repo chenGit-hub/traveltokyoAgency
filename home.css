@@ -1,0 +1,53 @@
+.hover:hover{
+    color: #8DAA9D;
+}
+.hover{
+    color: #0F0E0E;
+}
+.resize-image{
+    height: 250px;
+    width: 200px;
+}
+body{
+    background-color: #AFC186;
+}
+.img-thumbnail{
+    height: 100%;
+    width: 100%;
+}
+span{
+    font-size: 100%;
+}
+.text-align{
+    text-align: center;
+}
+.change-font{
+    font-size: 50px;
+    font-weight: 1000;
+}
+.logo-set{
+    height: 55px;
+    width: 60px;
+}
+.font-des{
+    font-style: italic;
+}
+.twi-set{
+    height: 35px;
+    width: 43px;
+}
+.em-set{
+    height: 33px;
+    width: 41px;
+}
+.fb-set{
+    height: 33px;
+    width: 37px;
+}
+.ig-set{
+    height: 31px;
+    width: 52px;
+}
+.icons:hover{
+    font-size: 0;
+}
